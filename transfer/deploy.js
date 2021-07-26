@@ -3,7 +3,7 @@ const Web3 = require('web3');
 const { interface, bytecode } = require('./compile');
 
 const provider = new HDWalletProvider(
-  'silly caught abuse visit frown unfold fiction canal stand math someone dream',
+  'YOUR SECRET PASS PHRASE HERE',
   'https://rinkeby.infura.io/v3/7a1f0a490671477d9ae77e50813c4968'
 );
 const web3 = new Web3(provider);
